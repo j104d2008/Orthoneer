@@ -2442,10 +2442,10 @@ ul {
 .banner_part {
   position: relative;
   background-color: #dde5e8;
-  background-image: url("../img/banner_img.jpg");
+  /*background-image: url("../img/banner_img.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 /* line 7, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_banner.scss */
@@ -8287,3 +8287,27 @@ h6 {
 }
 
 /*# sourceMappingURL=../css/style.map */
+
+
+.navbar-main {
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;;
+}
+
+.navbar-main a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.direction:hover{
+  color:grey;
+}
+.direction{
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
