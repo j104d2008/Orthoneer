@@ -8486,3 +8486,16 @@ body {
     gap: 16px;
   }
 }
+
+/* =========================
+   Active Menu Highlight
+   ========================= */
+
+.main-nav a.active {
+  color: #0a5ed7;
+  font-weight: 700;
+}
+
+.main-nav a.active::after {
+  width: 100%;
+}
