@@ -98,3 +98,13 @@ body {
   font-size: 1rem;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .nav-list li {
+    display: block;
+    margin: 8px 0;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
