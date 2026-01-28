@@ -1,10 +1,13 @@
-function loadHTML(id, file) {
-  fetch(file)
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("header.html")
     .then(res => res.text())
     .then(data => {
-      document.getElementById(id).innerHTML = data;
+      document.getElementById("header").innerHTML = data;
     });
-}
 
-loadHTML("header", "/header.html");
-loadHTML("footer", "/footer.html");
+  fetch("footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+});
